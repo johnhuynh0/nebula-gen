@@ -1,0 +1,19 @@
+hosts:
+  lighthouse:
+    ip: 172.16.0.1/16
+  router: 
+    ip: 172.16.1.1/16
+  desktop:
+    ip: 172.16.1.2/16
+    groups: kdeconnect,admin
+  phone:
+    ip: 172.16.1.3/16
+    groups: kdeconnect,admin-mobile
+  tv:
+    ip: 172.16.1.4/16
+    groups: kdeconnect
+  pikvm:
+    ip: 172.16.1.5/16
+  laptop:
+    ip: 172.16.1.6/16
+    groups: kdeconnect,admin-mobile
